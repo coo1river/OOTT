@@ -28,3 +28,19 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# 환경 변수 파일
+.env
+.env.local
+.env.development
+.env.production
+
+
+# TypeScript 관련 파일
+*.js.map
+*.d.ts
+
+# Vite 관련 빌드 파일 및 캐시
+/.vite
+node_modules/.vite
+/dist
